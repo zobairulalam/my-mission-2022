@@ -22,7 +22,7 @@ h1 {
 }
 
 .vl {
-    border-left: 6px solid rgb(255, 0, 0);
+    border-left: 6px solid cornflowerblue;
     height: 125px;
     border-image-slice: 1;
     display: flex;
@@ -30,7 +30,7 @@ h1 {
 }
 
 .vl h1:nth-child(2) {
-    color: red;
+    color: cornflowerblue;
 }
 
 #mainHeaderImage {
@@ -42,13 +42,14 @@ h1 {
     display: block;
     margin-left: 30%;
     margin-right: auto;
+    margin-bottom: 100px;
 
 }
 
 .linkButton {
     display: inline-block;
     text-decoration: none;
-    background: linear-gradient(salmon, lightsalmon);
+    background: linear-gradient(45deg, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -87,6 +88,14 @@ h1 {
     line-height: 1.5;
 }
 
-footer p{
+footer{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
     text-align: center;
+    background-color: black;
+    color: white;
+    border: solid;
+}
+span{
+    color: cornflowerblue;
 }
