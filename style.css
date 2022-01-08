@@ -1,6 +1,92 @@
-body{
-    font-family: 'Poppins', sans-serif;
+.section {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10%;
 }
-span{
-    color: salmon;
+
+#mainHeader {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+h1 {
+    margin: auto;
+    position: relative;
+    font-size: 65px;
+    padding-left: 20px;
+}
+
+.vl {
+    border-left: 6px solid rgb(255, 0, 0);
+    height: 125px;
+    border-image-slice: 1;
+    display: flex;
+    align-items: center;
+}
+
+.vl h1:nth-child(2) {
+    color: red;
+}
+
+#mainHeaderImage {
+    width: 45%;
+}
+
+#mainHeaderImage>img {
+    width: 65%;
+    display: block;
+    margin-left: 30%;
+    margin-right: auto;
+
+}
+
+.linkButton {
+    display: inline-block;
+    text-decoration: none;
+    background: linear-gradient(salmon, lightsalmon);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+#mainHeader div p,
+#mainHeader div a {
+    margin-top: 20px;
+}
+
+#mainHeader div p {
+    font-size: 20px;
+    color: gray;
+    line-height: 1.5;
+}
+#secondSectionImage{
+    width: 120%;
+}
+#secondSectionImage img{
+    width: 60%;
+    display: block;
+    margin-left: 23%;
+    margin-right: 15%;
+}
+#secondSection{
+    width: 140%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0%;
+}
+#secondSection div p {
+    font-size: 20px;
+    color: gray;
+    line-height: 1.5;
+}
+
+footer p{
+    text-align: center;
 }
