@@ -1,9 +1,13 @@
+body{
+    margin: -10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
 .section {
     display: flex;
     width: 90%;
     align-items: center;
     justify-content: center;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
 }
 
 #mainHeader {
@@ -18,9 +22,13 @@ h1 {
     margin: auto;
     position: relative;
     font-size: 65px;
+}
+.vl h1 {
+    margin: auto;
+    position: relative;
+    font-size: 65px;
     padding-left: 20px;
 }
-
 .vl {
     border-left: 6px solid cornflowerblue;
     height: 125px;
@@ -49,7 +57,7 @@ h1 {
 .linkButton {
     display: inline-block;
     text-decoration: none;
-    background: linear-gradient(45deg, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);
+    background: linear-gradient(45deg, cornflowerblue, lightskyblue);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -66,6 +74,71 @@ h1 {
     color: gray;
     line-height: 1.5;
 }
+
+
+
+.wrapper{
+    margin-left: 10%;
+    
+  }
+  
+  .wrapper h1{
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align:start;
+  }
+  
+  .team .team_member{
+    background: lightskyblue;
+    margin: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 30px;
+    color: black;  
+    position: relative;
+    border-radius: 20px;
+  }
+  
+  .team .team_member h3{
+    color: black;
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  
+  .team .team_member p.role{
+    color: white;
+    margin: 12px 0;
+    font-size: 30px;
+    text-transform:capitalize;
+  }
+  
+  .team .team_member .team_img{
+    position:relative;
+    top: -3%;
+    left: 80px;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+  }
+  
+  .team .team_member .team_img img{
+    width: 180px;
+    height: 180px;
+    padding: 5px;
+  }
+
+
+
+
 #secondSectionImage{
     width: 120%;
 }
@@ -87,10 +160,38 @@ h1 {
     color: gray;
     line-height: 1.5;
 }
+#thirdSectionImage{
+    width: 120%;
+}
+#thirdSectionImage img{
+    width: 70%;
+    display: block;
+    margin-left: 27%;
+    margin-right: 15%;
+}
+#thirdSection{
+    width: 145%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    justify-content: center;
+    width: auto;
+    text-align:start;
+}
+#thirdSection div p {
+    font-size: 20px;
+    color: gray;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
 
 footer{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:x-large;
+    font-size: 30px;
     text-align: center;
     background-color: black;
     color: white;
